@@ -1,13 +1,13 @@
 // script.js
-const buttons = document.querySelectorAll('button');
+const buttons = document.querySelectorAll("button");
 
-buttons.forEach(button => {
-  button.addEventListener('mouseenter', function() {
-    this.style.transform = 'scale(1.1)';
+buttons.forEach((button) => {
+  button.addEventListener("mouseenter", function () {
+    this.style.transform = "scale(1.1)";
   });
 
-  button.addEventListener('mouseleave', function() {
-    this.style.transform = 'scale(1)';
+  button.addEventListener("mouseleave", function () {
+    this.style.transform = "scale(1)";
   });
 });
 
