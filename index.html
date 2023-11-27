@@ -19,6 +19,7 @@
       h1 {
         color: #fff;
         animation: fadeIn 2s;
+        text-align: center;
       }
       button {
         margin: 10px;
@@ -29,15 +30,17 @@
         border-radius: 5px;
         transition: transform 0.3s;
         color: #000;
-        background-color: #7e00e1; /* grayish background color */
-        position: relative; /* Make the buttons pressable when in the popped out state */
+        background-color: #7e00e1;
+        position: relative;
       }
       button:hover {
         transform: scale(1.1);
-        pointer-events: auto; /* Ensure buttons are pressable when in the popped out state */
+        pointer-events: auto;
       }
       .social-media {
-        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       @keyframes fadeIn {
         from {
@@ -50,8 +53,9 @@
     </style>
   </head>
   <body>
-    <h1>Welcome to shitty skins!</h1>
+    <h1>Welcome to the united server site!</h1>
     <a href="skin-site.html"><button>Go to Skin Site</button></a>
+    <a href="server_map.html"><button>Server map</button></a>
     <div class="social-media">
       <a
         href="https://www.youtube.com/channel/UCCk4JSGtDHp30zEMuqgX6kA"
@@ -59,7 +63,9 @@
         ><button>Youtube</button></a
       >
       <a href="#"><button>Discord (Not yet available)</button></a>
-      <a href="#"><button>Twitter</button></a>
+      <a href="https://twitter.com/Viecis404" target="_blank"
+        ><button>Twitter</button></a
+      >
     </div>
     <script src="script.js"></script>
   </body>
